@@ -9,7 +9,7 @@ from selenium.webdriver.support import expected_conditions as EC
 class URLS:
     url = "https://koshelek.ru/authorization/signup"
 
-
+вввв
 driver = webdriver.Chrome()
 driver.get(URLS.url)
 shadow_host = WebDriverWait(driver, 10).until(
